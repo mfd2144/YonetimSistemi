@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2923452F299BCBE900581DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923452E299BCBE900581DF8 /* AppDelegate.swift */; };
+		29234531299BCBE900581DF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29234530299BCBE900581DF8 /* SceneDelegate.swift */; };
+		29234533299BCBE900581DF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29234532299BCBE900581DF8 /* ViewController.swift */; };
+		29234536299BCBE900581DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29234534299BCBE900581DF8 /* Main.storyboard */; };
+		29234538299BCBEA00581DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29234537299BCBEA00581DF8 /* Assets.xcassets */; };
+		2923453B299BCBEA00581DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29234539299BCBEA00581DF8 /* LaunchScreen.storyboard */; };
+		29234546299BCBEA00581DF8 /* YonetimSistemiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29234545299BCBEA00581DF8 /* YonetimSistemiTests.swift */; };
+		29234550299BCBEA00581DF8 /* YonetimSistemiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923454F299BCBEA00581DF8 /* YonetimSistemiUITests.swift */; };
+		29234552299BCBEA00581DF8 /* YonetimSistemiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29234551299BCBEA00581DF8 /* YonetimSistemiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29234542299BCBEA00581DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29234523299BCBE900581DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2923452A299BCBE900581DF8;
+			remoteInfo = YonetimSistemi;
+		};
+		2923454C299BCBEA00581DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29234523299BCBE900581DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2923452A299BCBE900581DF8;
+			remoteInfo = YonetimSistemi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2923452B299BCBE900581DF8 /* YonetimSistemi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YonetimSistemi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2923452E299BCBE900581DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29234530299BCBE900581DF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		29234532299BCBE900581DF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29234535299BCBE900581DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29234537299BCBEA00581DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2923453A299BCBEA00581DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2923453C299BCBEA00581DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29234541299BCBEA00581DF8 /* YonetimSistemiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YonetimSistemiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29234545299BCBEA00581DF8 /* YonetimSistemiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YonetimSistemiTests.swift; sourceTree = "<group>"; };
+		2923454B299BCBEA00581DF8 /* YonetimSistemiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YonetimSistemiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2923454F299BCBEA00581DF8 /* YonetimSistemiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YonetimSistemiUITests.swift; sourceTree = "<group>"; };
+		29234551299BCBEA00581DF8 /* YonetimSistemiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YonetimSistemiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29234528299BCBE900581DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2923453E299BCBEA00581DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29234548299BCBEA00581DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29234522299BCBE900581DF8 = {
+			isa = PBXGroup;
+			children = (
+				2923452D299BCBE900581DF8 /* YonetimSistemi */,
+				29234544299BCBEA00581DF8 /* YonetimSistemiTests */,
+				2923454E299BCBEA00581DF8 /* YonetimSistemiUITests */,
+				2923452C299BCBE900581DF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2923452C299BCBE900581DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2923452B299BCBE900581DF8 /* YonetimSistemi.app */,
+				29234541299BCBEA00581DF8 /* YonetimSistemiTests.xctest */,
+				2923454B299BCBEA00581DF8 /* YonetimSistemiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2923452D299BCBE900581DF8 /* YonetimSistemi */ = {
+			isa = PBXGroup;
+			children = (
+				2923452E299BCBE900581DF8 /* AppDelegate.swift */,
+				29234530299BCBE900581DF8 /* SceneDelegate.swift */,
+				29234532299BCBE900581DF8 /* ViewController.swift */,
+				29234534299BCBE900581DF8 /* Main.storyboard */,
+				29234537299BCBEA00581DF8 /* Assets.xcassets */,
+				29234539299BCBEA00581DF8 /* LaunchScreen.storyboard */,
+				2923453C299BCBEA00581DF8 /* Info.plist */,
+			);
+			path = YonetimSistemi;
+			sourceTree = "<group>";
+		};
+		29234544299BCBEA00581DF8 /* YonetimSistemiTests */ = {
+			isa = PBXGroup;
+			children = (
+				29234545299BCBEA00581DF8 /* YonetimSistemiTests.swift */,
+			);
+			path = YonetimSistemiTests;
+			sourceTree = "<group>";
+		};
+		2923454E299BCBEA00581DF8 /* YonetimSistemiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2923454F299BCBEA00581DF8 /* YonetimSistemiUITests.swift */,
+				29234551299BCBEA00581DF8 /* YonetimSistemiUITestsLaunchTests.swift */,
+			);
+			path = YonetimSistemiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2923452A299BCBE900581DF8 /* YonetimSistemi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29234555299BCBEA00581DF8 /* Build configuration list for PBXNativeTarget "YonetimSistemi" */;
+			buildPhases = (
+				29234527299BCBE900581DF8 /* Sources */,
+				29234528299BCBE900581DF8 /* Frameworks */,
+				29234529299BCBE900581DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YonetimSistemi;
+			productName = YonetimSistemi;
+			productReference = 2923452B299BCBE900581DF8 /* YonetimSistemi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29234540299BCBEA00581DF8 /* YonetimSistemiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29234558299BCBEA00581DF8 /* Build configuration list for PBXNativeTarget "YonetimSistemiTests" */;
+			buildPhases = (
+				2923453D299BCBEA00581DF8 /* Sources */,
+				2923453E299BCBEA00581DF8 /* Frameworks */,
+				2923453F299BCBEA00581DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29234543299BCBEA00581DF8 /* PBXTargetDependency */,
+			);
+			name = YonetimSistemiTests;
+			productName = YonetimSistemiTests;
+			productReference = 29234541299BCBEA00581DF8 /* YonetimSistemiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2923454A299BCBEA00581DF8 /* YonetimSistemiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2923455B299BCBEA00581DF8 /* Build configuration list for PBXNativeTarget "YonetimSistemiUITests" */;
+			buildPhases = (
+				29234547299BCBEA00581DF8 /* Sources */,
+				29234548299BCBEA00581DF8 /* Frameworks */,
+				29234549299BCBEA00581DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2923454D299BCBEA00581DF8 /* PBXTargetDependency */,
+			);
+			name = YonetimSistemiUITests;
+			productName = YonetimSistemiUITests;
+			productReference = 2923454B299BCBEA00581DF8 /* YonetimSistemiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29234523299BCBE900581DF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2923452A299BCBE900581DF8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					29234540299BCBEA00581DF8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2923452A299BCBE900581DF8;
+					};
+					2923454A299BCBEA00581DF8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2923452A299BCBE900581DF8;
+					};
+				};
+			};
+			buildConfigurationList = 29234526299BCBE900581DF8 /* Build configuration list for PBXProject "YonetimSistemi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29234522299BCBE900581DF8;
+			productRefGroup = 2923452C299BCBE900581DF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2923452A299BCBE900581DF8 /* YonetimSistemi */,
+				29234540299BCBEA00581DF8 /* YonetimSistemiTests */,
+				2923454A299BCBEA00581DF8 /* YonetimSistemiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29234529299BCBE900581DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2923453B299BCBEA00581DF8 /* LaunchScreen.storyboard in Resources */,
+				29234538299BCBEA00581DF8 /* Assets.xcassets in Resources */,
+				29234536299BCBE900581DF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2923453F299BCBEA00581DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29234549299BCBEA00581DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29234527299BCBE900581DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29234533299BCBE900581DF8 /* ViewController.swift in Sources */,
+				2923452F299BCBE900581DF8 /* AppDelegate.swift in Sources */,
+				29234531299BCBE900581DF8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2923453D299BCBEA00581DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29234546299BCBEA00581DF8 /* YonetimSistemiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29234547299BCBEA00581DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29234550299BCBEA00581DF8 /* YonetimSistemiUITests.swift in Sources */,
+				29234552299BCBEA00581DF8 /* YonetimSistemiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29234543299BCBEA00581DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2923452A299BCBE900581DF8 /* YonetimSistemi */;
+			targetProxy = 29234542299BCBEA00581DF8 /* PBXContainerItemProxy */;
+		};
+		2923454D299BCBEA00581DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2923452A299BCBE900581DF8 /* YonetimSistemi */;
+			targetProxy = 2923454C299BCBEA00581DF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29234534299BCBE900581DF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29234535299BCBE900581DF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29234539299BCBEA00581DF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2923453A299BCBEA00581DF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29234553299BCBEA00581DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29234554299BCBEA00581DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29234556299BCBEA00581DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF658HF834;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YonetimSistemi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mfd.YonetimSistemi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29234557299BCBEA00581DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF658HF834;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YonetimSistemi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mfd.YonetimSistemi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29234559299BCBEA00581DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF658HF834;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mfd.YonetimSistemiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YonetimSistemi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YonetimSistemi";
+			};
+			name = Debug;
+		};
+		2923455A299BCBEA00581DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF658HF834;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mfd.YonetimSistemiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YonetimSistemi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YonetimSistemi";
+			};
+			name = Release;
+		};
+		2923455C299BCBEA00581DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF658HF834;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mfd.YonetimSistemiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YonetimSistemi;
+			};
+			name = Debug;
+		};
+		2923455D299BCBEA00581DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF658HF834;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mfd.YonetimSistemiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YonetimSistemi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29234526299BCBE900581DF8 /* Build configuration list for PBXProject "YonetimSistemi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29234553299BCBEA00581DF8 /* Debug */,
+				29234554299BCBEA00581DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29234555299BCBEA00581DF8 /* Build configuration list for PBXNativeTarget "YonetimSistemi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29234556299BCBEA00581DF8 /* Debug */,
+				29234557299BCBEA00581DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29234558299BCBEA00581DF8 /* Build configuration list for PBXNativeTarget "YonetimSistemiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29234559299BCBEA00581DF8 /* Debug */,
+				2923455A299BCBEA00581DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2923455B299BCBEA00581DF8 /* Build configuration list for PBXNativeTarget "YonetimSistemiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2923455C299BCBEA00581DF8 /* Debug */,
+				2923455D299BCBEA00581DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29234523299BCBE900581DF8 /* Project object */;
+}
