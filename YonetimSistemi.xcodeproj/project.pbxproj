@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2923452F299BCBE900581DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923452E299BCBE900581DF8 /* AppDelegate.swift */; };
-		29234531299BCBE900581DF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29234530299BCBE900581DF8 /* SceneDelegate.swift */; };
-		29234533299BCBE900581DF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29234532299BCBE900581DF8 /* ViewController.swift */; };
-		29234536299BCBE900581DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29234534299BCBE900581DF8 /* Main.storyboard */; };
-		29234538299BCBEA00581DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29234537299BCBEA00581DF8 /* Assets.xcassets */; };
-		2923453B299BCBEA00581DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29234539299BCBEA00581DF8 /* LaunchScreen.storyboard */; };
 		29234546299BCBEA00581DF8 /* YonetimSistemiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29234545299BCBEA00581DF8 /* YonetimSistemiTests.swift */; };
 		29234550299BCBEA00581DF8 /* YonetimSistemiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923454F299BCBEA00581DF8 /* YonetimSistemiUITests.swift */; };
 		29234552299BCBEA00581DF8 /* YonetimSistemiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29234551299BCBEA00581DF8 /* YonetimSistemiUITestsLaunchTests.swift */; };
+		29234571299BCC1F00581DF8 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923455F299BCC1E00581DF8 /* AppRouter.swift */; };
+		29234572299BCC1F00581DF8 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29234560299BCC1E00581DF8 /* AppContainer.swift */; };
+		29234573299BCC1F00581DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29234561299BCC1E00581DF8 /* AppDelegate.swift */; };
+		29234574299BCC1F00581DF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29234562299BCC1E00581DF8 /* SceneDelegate.swift */; };
+		29234575299BCC1F00581DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29234564299BCC1E00581DF8 /* Assets.xcassets */; };
+		29234576299BCC1F00581DF8 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29234566299BCC1F00581DF8 /* Reusable.swift */; };
+		29234577299BCC1F00581DF8 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29234567299BCC1F00581DF8 /* UIViewController+.swift */; };
+		29234578299BCC1F00581DF8 /* SplashScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923456A299BCC1F00581DF8 /* SplashScreenRouter.swift */; };
+		29234579299BCC1F00581DF8 /* SplashScreenContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923456B299BCC1F00581DF8 /* SplashScreenContracts.swift */; };
+		2923457A299BCC1F00581DF8 /* SplashScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923456C299BCC1F00581DF8 /* SplashScreenViewModel.swift */; };
+		2923457F299BD14200581DF8 /* SplashScreenBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923457E299BD14200581DF8 /* SplashScreenBuilder.swift */; };
+		29234587299BD35100581DF8 /* CustomXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29234586299BD35100581DF8 /* CustomXibView.swift */; };
+		29234589299BD37100581DF8 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29234588299BD37100581DF8 /* UIView+.swift */; };
+		2923458D299BD78A00581DF8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923458B299BD78A00581DF8 /* FirstViewController.swift */; };
+		2923458E299BD78A00581DF8 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2923458C299BD78A00581DF8 /* FirstViewController.xib */; };
+		29234591299BDCDB00581DF8 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923458F299BDCDB00581DF8 /* SplashScreenViewController.swift */; };
+		29234592299BDCDB00581DF8 /* SplashScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29234590299BDCDB00581DF8 /* SplashScreenViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,18 +48,29 @@
 
 /* Begin PBXFileReference section */
 		2923452B299BCBE900581DF8 /* YonetimSistemi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YonetimSistemi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2923452E299BCBE900581DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29234530299BCBE900581DF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		29234532299BCBE900581DF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		29234535299BCBE900581DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		29234537299BCBEA00581DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2923453A299BCBEA00581DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2923453C299BCBEA00581DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29234541299BCBEA00581DF8 /* YonetimSistemiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YonetimSistemiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29234545299BCBEA00581DF8 /* YonetimSistemiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YonetimSistemiTests.swift; sourceTree = "<group>"; };
 		2923454B299BCBEA00581DF8 /* YonetimSistemiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YonetimSistemiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2923454F299BCBEA00581DF8 /* YonetimSistemiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YonetimSistemiUITests.swift; sourceTree = "<group>"; };
 		29234551299BCBEA00581DF8 /* YonetimSistemiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YonetimSistemiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2923455F299BCC1E00581DF8 /* AppRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		29234560299BCC1E00581DF8 /* AppContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		29234561299BCC1E00581DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29234562299BCC1E00581DF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		29234564299BCC1E00581DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29234566299BCC1F00581DF8 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		29234567299BCC1F00581DF8 /* UIViewController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		2923456A299BCC1F00581DF8 /* SplashScreenRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenRouter.swift; sourceTree = "<group>"; };
+		2923456B299BCC1F00581DF8 /* SplashScreenContracts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenContracts.swift; sourceTree = "<group>"; };
+		2923456C299BCC1F00581DF8 /* SplashScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewModel.swift; sourceTree = "<group>"; };
+		2923457E299BD14200581DF8 /* SplashScreenBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenBuilder.swift; sourceTree = "<group>"; };
+		29234586299BD35100581DF8 /* CustomXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomXibView.swift; sourceTree = "<group>"; };
+		29234588299BD37100581DF8 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		2923458B299BD78A00581DF8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2923458C299BD78A00581DF8 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		2923458F299BDCDB00581DF8 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		29234590299BDCDB00581DF8 /* SplashScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreenViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +121,11 @@
 		2923452D299BCBE900581DF8 /* YonetimSistemi */ = {
 			isa = PBXGroup;
 			children = (
-				2923452E299BCBE900581DF8 /* AppDelegate.swift */,
-				29234530299BCBE900581DF8 /* SceneDelegate.swift */,
-				29234532299BCBE900581DF8 /* ViewController.swift */,
-				29234534299BCBE900581DF8 /* Main.storyboard */,
-				29234537299BCBEA00581DF8 /* Assets.xcassets */,
-				29234539299BCBEA00581DF8 /* LaunchScreen.storyboard */,
+				29234585299BD2E700581DF8 /* Custom */,
+				2923455E299BCC1E00581DF8 /* App */,
+				29234568299BCC1F00581DF8 /* Scenes */,
+				29234565299BCC1F00581DF8 /* Extenison */,
+				29234563299BCC1E00581DF8 /* Sources */,
 				2923453C299BCBEA00581DF8 /* Info.plist */,
 			);
 			path = YonetimSistemi;
@@ -125,6 +146,82 @@
 				29234551299BCBEA00581DF8 /* YonetimSistemiUITestsLaunchTests.swift */,
 			);
 			path = YonetimSistemiUITests;
+			sourceTree = "<group>";
+		};
+		2923455E299BCC1E00581DF8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2923455F299BCC1E00581DF8 /* AppRouter.swift */,
+				29234560299BCC1E00581DF8 /* AppContainer.swift */,
+				29234561299BCC1E00581DF8 /* AppDelegate.swift */,
+				29234562299BCC1E00581DF8 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		29234563299BCC1E00581DF8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29234564299BCC1E00581DF8 /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		29234565299BCC1F00581DF8 /* Extenison */ = {
+			isa = PBXGroup;
+			children = (
+				29234566299BCC1F00581DF8 /* Reusable.swift */,
+				29234567299BCC1F00581DF8 /* UIViewController+.swift */,
+				29234588299BD37100581DF8 /* UIView+.swift */,
+			);
+			path = Extenison;
+			sourceTree = "<group>";
+		};
+		29234568299BCC1F00581DF8 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				29234569299BCC1F00581DF8 /* SplashScreen */,
+				29234570299BCC1F00581DF8 /* FirstPage */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		29234569299BCC1F00581DF8 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2923456D299BCC1F00581DF8 /* ViewController */,
+				2923456A299BCC1F00581DF8 /* SplashScreenRouter.swift */,
+				2923456B299BCC1F00581DF8 /* SplashScreenContracts.swift */,
+				2923456C299BCC1F00581DF8 /* SplashScreenViewModel.swift */,
+				2923457E299BD14200581DF8 /* SplashScreenBuilder.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		2923456D299BCC1F00581DF8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2923458F299BDCDB00581DF8 /* SplashScreenViewController.swift */,
+				29234590299BDCDB00581DF8 /* SplashScreenViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		29234570299BCC1F00581DF8 /* FirstPage */ = {
+			isa = PBXGroup;
+			children = (
+				2923458B299BD78A00581DF8 /* FirstViewController.swift */,
+				2923458C299BD78A00581DF8 /* FirstViewController.xib */,
+			);
+			path = FirstPage;
+			sourceTree = "<group>";
+		};
+		29234585299BD2E700581DF8 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				29234586299BD35100581DF8 /* CustomXibView.swift */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +328,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2923453B299BCBEA00581DF8 /* LaunchScreen.storyboard in Resources */,
-				29234538299BCBEA00581DF8 /* Assets.xcassets in Resources */,
-				29234536299BCBE900581DF8 /* Main.storyboard in Resources */,
+				29234592299BDCDB00581DF8 /* SplashScreenViewController.xib in Resources */,
+				29234575299BCC1F00581DF8 /* Assets.xcassets in Resources */,
+				2923458E299BD78A00581DF8 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +355,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29234533299BCBE900581DF8 /* ViewController.swift in Sources */,
-				2923452F299BCBE900581DF8 /* AppDelegate.swift in Sources */,
-				29234531299BCBE900581DF8 /* SceneDelegate.swift in Sources */,
+				2923458D299BD78A00581DF8 /* FirstViewController.swift in Sources */,
+				29234573299BCC1F00581DF8 /* AppDelegate.swift in Sources */,
+				29234591299BDCDB00581DF8 /* SplashScreenViewController.swift in Sources */,
+				2923457F299BD14200581DF8 /* SplashScreenBuilder.swift in Sources */,
+				29234589299BD37100581DF8 /* UIView+.swift in Sources */,
+				29234571299BCC1F00581DF8 /* AppRouter.swift in Sources */,
+				29234579299BCC1F00581DF8 /* SplashScreenContracts.swift in Sources */,
+				29234577299BCC1F00581DF8 /* UIViewController+.swift in Sources */,
+				29234587299BD35100581DF8 /* CustomXibView.swift in Sources */,
+				29234572299BCC1F00581DF8 /* AppContainer.swift in Sources */,
+				29234574299BCC1F00581DF8 /* SceneDelegate.swift in Sources */,
+				29234578299BCC1F00581DF8 /* SplashScreenRouter.swift in Sources */,
+				29234576299BCC1F00581DF8 /* Reusable.swift in Sources */,
+				2923457A299BCC1F00581DF8 /* SplashScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +403,6 @@
 			targetProxy = 2923454C299BCBEA00581DF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		29234534299BCBE900581DF8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29234535299BCBE900581DF8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		29234539299BCBEA00581DF8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2923453A299BCBEA00581DF8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		29234553299BCBEA00581DF8 /* Debug */ = {
@@ -442,7 +531,6 @@
 				INFOPLIST_FILE = YonetimSistemi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +558,6 @@
 				INFOPLIST_FILE = YonetimSistemi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
