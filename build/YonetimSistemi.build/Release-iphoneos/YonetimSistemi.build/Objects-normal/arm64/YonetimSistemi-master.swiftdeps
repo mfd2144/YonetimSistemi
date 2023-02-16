@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "107e6356eb2d374df91e9f74e6b262241b064af8666470cbdcdffe86adc95518"
+build_start_time: [1676574794, 290338993]
+build_end_time: [1676574807, 575394153]
+inputs:
+  "/Users/fatihdogan/Desktop/YonetimSistemi/YonetimSistemi/App/AppContainer.swift": [1676382491, 132979393]
+  "/Users/fatihdogan/Desktop/YonetimSistemi/YonetimSistemi/App/AppDelegate.swift": [1676387757, 10807514]
+  "/Users/fatihdogan/Desktop/YonetimSistemi/YonetimSistemi/App/AppRouter.swift": [1676386563, 666239738]
+  "/Users/fatihdogan/Desktop/YonetimSistemi/YonetimSistemi/App/SceneDelegate.swift": [1676382773, 904888153]
+  "/Users/fatihdogan/Desktop/YonetimSistemi/YonetimSistemi/Custom/CustomXibView.swift": [1676385248, 356592178]
+  "/Users/fatihdogan/Desktop/YonetimSistemi/YonetimSistemi/Extenison/Reusable.swift": [1676382491, 59267044]
+  "/Users/fatihdogan/Desktop/YonetimSistemi/YonetimSistemi/Extenison/UIView+.swift": [1676385290, 274234771]
+  "/Users/fatihdogan/Desktop/YonetimSistemi/YonetimSistemi/Extenison/UIViewController+.swift": [1676382531, 346888780]
+  "/Users/fatihdogan/Desktop/YonetimSistemi/YonetimSistemi/Scenes/FirstPage/FirstViewController.swift": [1676386563, 617250204]
+  "/Users/fatihdogan/Desktop/YonetimSistemi/YonetimSistemi/Scenes/SplashScreen/SplashScreenBuilder.swift": [1676386563, 687379837]
+  "/Users/fatihdogan/Desktop/YonetimSistemi/YonetimSistemi/Scenes/SplashScreen/SplashScreenContracts.swift": [1676397321, 980784893]
+  "/Users/fatihdogan/Desktop/YonetimSistemi/YonetimSistemi/Scenes/SplashScreen/SplashScreenRouter.swift": [1676386766, 798918724]
+  "/Users/fatihdogan/Desktop/YonetimSistemi/YonetimSistemi/Scenes/SplashScreen/SplashScreenViewModel.swift": [1676386563, 759845733]
+  "/Users/fatihdogan/Desktop/YonetimSistemi/YonetimSistemi/Scenes/SplashScreen/ViewController/SplashScreenViewController.swift": [1676397321, 976531028]
